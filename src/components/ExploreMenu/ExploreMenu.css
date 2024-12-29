@@ -1,0 +1,57 @@
+.explore-menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    overflow: scroll;
+    padding: 0px 5px 0px 5px;
+}
+
+.explore-menu::before{
+    content: "";
+    height: 200px;
+    background: linear-gradient(to right, white,transparent);
+    position: absolute;
+    left: 10%;
+    width: 10px;
+}
+
+.explore-menu-passage{
+    margin-bottom: 30px;
+}
+
+.explore-menu::after{
+    content: "";
+    height: 200px;
+    width: 10px;
+    position: absolute;
+    right: 10%;
+    background: linear-gradient(to left,white,transparent);
+}
+
+.explore-menu::-webkit-scrollbar{
+    display: none;
+}
+
+.explore-item{
+    text-align: center;
+}
+
+.explore-item img{
+    height: 150px;
+    width: auto;
+    border-radius: 100%;
+}
+
+.explore-item h3{
+    color: #555555;
+}
+
+.explore-item .selected{
+    border: 5px solid orangered;
+    padding: 5px;
+}
+
+.explore-item .not-selected{
+    border: 5px solid white;
+    padding: 5px;
+}

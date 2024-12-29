@@ -1,0 +1,32 @@
+.footer-content .logo{
+    font-weight: 800;
+    color: orangered;
+}
+
+.flex-display{
+    width: 70%;
+    position: relative;
+    left: 15%;
+    gap: 100px;
+}
+
+.footer-box{
+    background: #555555;
+    padding: 50px 50px 3px 50px;
+    color: white;
+    position: relative;
+    bottom: -16px;
+}
+
+.footer-icons img{
+    width: 40px;
+    margin-right: 5px;
+}
+
+@media(max-width:1080px){
+    .flex-display{
+        width: 100%;
+        left: 0%;
+        gap: 50px;
+    }
+}

@@ -1,0 +1,61 @@
+.nav-logo h1{
+    color: orangered;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.dot{
+    height: 8px;
+    width: 8px;
+    background: orangered;
+    border-radius: 100%;
+    position: relative;
+    top: -25px;
+    left: 15px;
+}
+
+.nav-elements ul, .nav-links ul{
+    display: flex;
+    gap: 15px;
+    font-weight: 600;
+    color: #555555;
+    font-size: 20px; 
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+.nav-elements li h3{
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.nav-links .image{
+    width: 25px;
+}
+
+.nav-links button{
+    height: 30px;
+    width: 100px;
+    border:thin solid orangered;
+    border-radius: 5px;
+    background: white;
+    font-size: 15px;
+}
+
+li{
+    list-style: none;
+}
+
+.active{
+    border-bottom: 2px solid #555555;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+@media(max-width: 1050px){
+    .nav-elements{
+        display: none;
+    }
+}
